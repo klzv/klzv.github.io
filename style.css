@@ -1,0 +1,5 @@
+BODY {background-color: #E0E0E0;}
+TD, TH {padding: 2PX 5PX;}
+A:HOVER {background-color: #FFFF99;}
+A:VISITED {color: blue;}
+A:VISITED:HOVER {background-color: #FFFF99;}
