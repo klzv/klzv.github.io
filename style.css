@@ -3,3 +3,15 @@ TD, TH {padding: 2PX 5PX;}
 A:HOVER {background-color: #FFFF99;}
 A:VISITED {color: blue;}
 A:VISITED:HOVER {background-color: #FFFF99;}
+
+.LEFT {float: left;} .CLEAR {clear: both;}
+.VLOGT TD, TH {padding: 0; border-spacing: 20PX;}
+.VLOGT TD A {display: block; padding: 10PX; text-decoration: none; border: 1PX solid transparent;}
+.VLOGT TD A:HOVER {border: 1PX solid grey; box-shadow: 0 0 5PX 5PX silver;}
+.VLOGT TD A:ACTIVE {background-color: #EEEE99; border: 1PX solid crimson;}
+.VLOGT .caption {overflow: hidden;}
+.VLOGT .number {width: 45PX; text-align: center;  font: 500 1.5EM 'Times New Roman'; border: 1PX groove red; background-color: khaki; color: black;}
+.VLOGT .number:HOVER {color: black;}
+.VLOGT .date {padding-left: 10PX; color: #333333; font-style: italic; font-size: 1.05EM;}
+.VLOGT .title {padding-left: 10PX; font: 600 1.7EM 'Verdana'; color: black;}
+VIDEO.thumb {width: 320PX; max-height: 180PX; object-fit: fill;}
