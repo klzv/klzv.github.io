@@ -3,7 +3,7 @@ TD, TH {padding: 2PX 5PX;}
 A:HOVER {background-color: #FFFF99;}
 A:VISITED {color: blue;}
 A:VISITED:HOVER {background-color: #FFFF99;}
-
+ABBR:HOVER:BEFORE {content: attr(title); position: absolute; background-color: black; color: white; padding: 3PX 8PX; margin: -25PX 0 0 0;}
 .LEFT {float: left;} .CLEAR {clear: both;}
 .VLOGT TD, TH {padding: 0; border-spacing: 20PX;}
 .VLOGT TD A {display: block; padding: 10PX; text-decoration: none; border: 1PX solid transparent;}
