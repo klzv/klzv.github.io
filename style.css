@@ -1,9 +1,10 @@
-BODY {background-color: #E0E0E0;}
+BODY {background-color: #E0E0E0; width: 75%; margin: 0 auto;}
 TD, TH {padding: 2PX 5PX;}
 A:HOVER {background-color: #FFFF99;}
 A:VISITED {color: blue;}
 A:VISITED:HOVER {background-color: #FFFF99;}
 ABBR:HOVER:BEFORE {content: attr(title); position: absolute; background-color: black; color: white; padding: 3PX 8PX; margin: -25PX 0 0 0;}
+.DM {background-color: black; color: white;} /* dark mode/theme */
 .LEFT {float: left;} .CLEAR {clear: both;}
 .VLOGT TD, TH {padding: 0; border-spacing: 20PX;}
 .VLOGT TD A {display: block; padding: 10PX; text-decoration: none; border: 1PX solid transparent;}
@@ -15,3 +16,9 @@ ABBR:HOVER:BEFORE {content: attr(title); position: absolute; background-color: b
 .VLOGT .date {padding-left: 10PX; color: #333333; font-style: italic; font-size: 1.05EM;}
 .VLOGT .title {padding-left: 10PX; font: 600 1.7EM 'Verdana'; color: black;}
 VIDEO.thumb {width: 320PX; max-height: 180PX; object-fit: fill;}
+HEADER {background-color: wheat; border: 1PX solid black; margin-top: 12PX; padding-top: 3PX;}
+HEADER H1 {margin: 0.2EM 0; font-size: 2.5EM;}
+HEADER .tagline {font: 500 1.4EM "Times New Roman"; margin: 0;}
+HEADER TD.TOP-NAV {padding: 0;}
+HEADER A {display: block; padding: 6PX 10PX; border: 1PX solid transparent;}
+HEADER A:HOVER {border: 1PX solid red;}
