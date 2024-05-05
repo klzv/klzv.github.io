@@ -1,11 +1,23 @@
-BODY {background-color: #E0E0E0; width: 75%; margin: 0 auto;}
+BODY {background-color: #E0E0E0; width: fit-content; margin: 0 auto;}
 TD, TH {padding: 2PX 5PX;}
 A:HOVER {background-color: #FFFF99;}
 A:VISITED {color: blue;}
 A:VISITED:HOVER {background-color: #FFFF99;}
 ABBR:HOVER:BEFORE {content: attr(title); position: absolute; background-color: black; color: white; padding: 3PX 8PX; margin: -25PX 0 0 0;}
+P {margin: 0.7EM 0;}
+H1, H2, H3 {margin: 0.4EM 0;}
+H4, H5, H6 {margin: 0.5EM 0;}
+H2 {font-size: 1.7EM;}
+H3 {font-size: 1.5EM;}
+H4 {font-size: 1.3EM;}
+H5 {font-size: 1.2EM;}
+H6 {font-size: 1.15EM; text-decoration: underline;}
+H1 A, H2 A, H3 A, H4 A, H5 A, H6 A {text-decoration: dotted; color: inherit;}
+H1 A:VISITED, H2 A:VISITED, H3 A:VISITED, H4 A:VISITED, H5 A:VISITED, H6 A:VISITED {color: inherit;} 
+H1 A:VISITED:HOVER, H2 A:VISITED:HOVER, H3 A:VISITED:HOVER, H4 A:VISITED:HOVER, H5 A:VISITED:HOVER, H6 A:VISITED:HOVER {background-color: transparent; } 
+H1 A:HOVER, H2 A:HOVER, H3 A:HOVER, H4 A:HOVER, H5 A :HOVER, H6 A:HOVER {text-decoration: underline; background-color: transparent;}
 .DM {background-color: black; color: white;} /* dark mode/theme */
-.LEFT {float: left;} .CLEAR {clear: both;}
+.LEFT {float: left;} .RIGHT {float: right;} .CLEAR {clear: both;} /* floats */
 .VLOGT TD, TH {padding: 0; border-spacing: 20PX;}
 .VLOGT TD A {display: block; padding: 10PX; text-decoration: none; border: 1PX solid transparent;}
 .VLOGT TD A:HOVER {border: 1PX solid grey; box-shadow: 0 0 5PX 5PX silver;}
@@ -22,3 +34,16 @@ HEADER .tagline {font: 500 1.4EM "Times New Roman"; margin: 0;}
 HEADER TD.TOP-NAV {padding: 0;}
 HEADER A {display: block; padding: 6PX 10PX; border: 1PX solid transparent;}
 HEADER A:HOVER {border: 1PX solid red;}
+#MAINPAGE {border-spacing: 10PX; border: 1PX solid black; border-top: 0;}
+#SIDE-NAV {background-color: #E8F2F2; max-width: 270PX;}
+#SIDE-NAV H2 {background-color: #9BC6FF;  border: 1PX solid #AAAAAA; padding-left: 0.15EM;}
+#SIDE-NAV A {display: block; border-bottom: 1PX solid black; text-decoration: none;}
+#POTD {background-color: #FFFF99;}
+#POTD H2 {background-color: #EEEE99;  border: 1PX solid #AAAAAA; padding-left: 0.15EM;}
+#VLOG {background-color: #DDFFEA; max-width: 400PX; padding-bottom: 10PX;}
+#VLOG H2 {background-color: #CEF250; border: 1PX solid #A3BFBB; padding-left: 0.15EM;}
+#VLOG .biography {background-color: #FFFFDD; padding: 10PX; border: 1PX solid black;}
+#VLOG .vloglink {background-color: black; text-align: center;  height: 80PX; font-size: larger; margin-bottom: 10PX; width: 100%;}
+#VLOG .vloglink A {color: white; display: inline-block;}
+.biography H3 {display: inline-block; margin: 0.2EM 0; margin-bottom: 0;}
+.biography IMG {margin: 5PX 10PX 0 0;}

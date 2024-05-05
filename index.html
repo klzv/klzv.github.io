@@ -1,19 +1,46 @@
 <!DOCTYPE HTML>
-<HTML>
-    <HEAD LANG='EN-GB'>
-        <META CHARSET='UTF-8'>
-        <META NAME='VIEWPORT' CONTENT='WIDTH=DEVICE-WIDTH; INITIAL-SCALE=1.0'>
-        <LINK REL='STYLESHEET' HREF='style.css'>
-        <TITLE>Home Page</TITLE>
-    </HEAD>
-
-    <BODY>
-        <H1>Welcome</H1>
-        <HR/>
-        <UL>
-            <LI><a href="indices.html">Indices</a></LI>
-            <LI><a href="kamal.html">Mr Kamal's Teachings</a></LI>
-            <LI><a href="vlog.html">Gary's Vlogs</a></LI>
-        </UL>
-    </BODY>
-</HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>KLZV Home Page</title>
+</head>
+<body>
+    <script src="header.js"></script>
+    <table id="MAINPAGE">
+        <tr>
+            <td colspan="3" width="100%">
+                <h2>Welcome</h2>
+                to Kolozrvar's Tau Sar Piah's On-line Baking/Cooking Realm.
+            </td>
+        </tr>
+        <tr>
+            <td id="SIDE-NAV" valign="top">
+                <h2>All Links</h2>
+                <a href="kamal.html">Mr Kamal's Teachings</a> 
+                <a href="indices.html">The Laws of Indices</a>
+                <a href="vlog.html">Gary's Vlog</a>
+                <a href="biog-gary.html">About Gary</a>
+                <a href="images.html">Images</a>
+                <a href="angel.html"><abbr title="The Angel Next Door Spoils Me Rotten">TANDSMR</abbr> <abbr title="Light Novel">LN</abbr></a>
+            </td>
+            <td id="POTD" valign="top">
+                <h2>Picture of the Day</h2>
+                <script src="potd.js"></script>
+            </td>
+            <td id="VLOG">
+                <h2><a href="vlog.html">Gary's Vlog</a></h2>
+                <table class="vloglink" align="center"><td class="vloglink"><a href="vlog.html">Click <b>&rArr;Here&lArr;</b> to visit Gary's Vlog</a></td></table>
+                <video src="vlogs/1.mp4" width="100%" style="margin-bottom: 8PX;" controls>Watch Gary's Debut Vlog</video>
+                <div class="biography">
+                    <div class="LEFT"><img src="images/gary.jpg" width="100PX"></div>
+                    <h3><a href="biog-gary.html">Who is Gary?</a></h3>
+                    <p>Gary is the creator of his vlog, <em>Gary's 3B Vlogs</em>. He is an accomplished weeb and rhythm games expert. He likes to gawk at little anime children and deny his deviation in sexual orientation.</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <HR size="5"/>
+</body>
+</html>
