@@ -6,7 +6,7 @@ template.innerHTML = `
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>Header</title>
 </head>
 
@@ -21,9 +21,10 @@ template.innerHTML = `
         </tr>
         <tr>
             <td class="TOP-NAV">
-                <div class="LEFT"><a href="index.html">Home</a></div>
-                <div class="LEFT"><a href="vlog.html">Gary's Vlog</a></div>
-                <div class="LEFT"><a href="misc.html">Miscellaneous</a></div>
+                <div class="LEFT"><a href="/index.html">Home</a></div>
+                <div class="LEFT"><a href="/vlog.html">Gary's Vlog</a></div>
+                <div class="LEFT"><a href="/misc.html">Miscellaneous</a></div>
+                <div class="LEFT"><a href="/news/index.html">News & Updates</a></div>
                 <div class="CLEAR"></div>
             </td>
         </tr>
