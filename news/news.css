@@ -1,0 +1,6 @@
+@import url(../style.css);
+.content {max-width: 800PX;}
+MAIN {text-align: justify;}
+H1 {text-align: justify; text-justify: newspaper;}
+.date {padding: 5PX; border: 1PX solid black; display: inline-block;}
+.credits {font-style: italic; font-size: small;}
