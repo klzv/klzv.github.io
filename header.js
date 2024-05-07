@@ -13,7 +13,7 @@ template.innerHTML = `
 <header>
     <table>
         <tr>
-            <td rowspan="2"><img src="logo.jpg" width="140PX" height="120PX"></td>
+            <td rowspan="2"><img src="/logo.jpg" width="140PX" height="120PX"></td>
             <td>
                 <H1>Kolozrvar's Tau Sar Piah Realm</H1> <!-- chink: 恐龙–九龙 炸弹文党 -->
                 <p class="tagline">The On-line Non-Cooking Repository</p>
