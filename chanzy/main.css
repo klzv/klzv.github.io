@@ -7,10 +7,10 @@ header img {height: 80%; max-height: 80PX;}
 header table {margin: 0 20%;}
 header table td {width: 1%; white-space: no-wrap;}
 header .space {width: 40%; max-width: 400PX;}
-a.image-anchor {margin: 0; padding: 0;}
-a.image-anchor:hover {border-bottom: 0; }
-a {color: black; font-size: 22PX; margin: 0 1EM; text-decoration: none;}
-a:hover {color: #0076E3; padding-bottom: 0.15EM; border-bottom: 3PX solid #0076E3;}
+header a.image-anchor {margin: 0; padding: 0;}
+header a.image-anchor:hover {border-bottom: 0; }
+header a {color: black; font-size: 22PX; margin: 0 1EM; text-decoration: none;}
+header a:hover {color: #0076E3; padding-bottom: 0.15EM; border-bottom: 3PX solid #0076E3;}
 a.facebook {margin: 0;} a.facebook img {transform: scale(0.1);}
 a.facebook:hover {fill: #0076E3 !important; border-bottom: 0;}
 a {color: #2B6BB4;}
