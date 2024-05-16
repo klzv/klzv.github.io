@@ -41,6 +41,13 @@ HEADER A:HOVER {border: 1PX solid red;}
 #SIDE-NAV {background-color: #E8F2F2; max-width: 300PX;}
 #SIDE-NAV H2 {background-color: #9BC6FF;  border: 1PX solid #AAAAAA;}
 #SIDE-NAV A {display: block; border-bottom: 1PX solid black; text-decoration: none;}
+#SIDE-NAV A:HOVER {background-color: #4B86D3; color: white;}
+#SIDE-NAV A:ACTIVE {background-color: #3C6CAB;}
+#SIDE-NAV SUMMARY {display: block; width: 100%; position: relative;}
+#SIDE-NAV SUMMARY::AFTER {position: absolute; right: 0; display: inline-block; content: '\F0DA'; font-family: FontAwesome;}
+#SIDE-NAV SUMMARY:HOVER {background-color: #4B86D3;  color: white; cursor: pointer;}
+#SIDE-NAV DETAILS[OPEN] > SUMMARY::AFTER {content: '\F0D7';}
+#SIDE-NAV DETAILS UL {list-style-type: none; padding-left: 0; margin-top: 0;}
 #POTD {background-color: #FFFF99;}
 #POTD IMG {display: block; text-align: center;}
 #POTD H2 {background-color: #EEEE99;  border: 1PX solid #AAAAAA;}
