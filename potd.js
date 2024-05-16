@@ -15,5 +15,5 @@ image[5] = 'fri.jpg';
 image[6] = 'sat.jpg';
 var currentdate = new Date();
 var imagenumber = currentdate.getDay();
-document.write('<img src="' + imlocation + image[imagenumber] + '" width="480PX" style="display: block; margin: 0 auto">');
+document.write('<img src="' + imlocation + image[imagenumber] + '" width="480PX" style="display: block; margin: 0 auto 10PX">');
 //--></script>

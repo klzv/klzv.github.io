@@ -40,13 +40,15 @@ HEADER A:HOVER {border: 1PX solid red;}
 #MAINPAGE {border-spacing: 10PX; border: 1PX solid black; border-top: 0;}
 #SIDE-NAV {background-color: #E8F2F2; max-width: 300PX;}
 #SIDE-NAV H2 {background-color: #9BC6FF;  border: 1PX solid #AAAAAA;}
-#SIDE-NAV A {display: block; border-bottom: 1PX solid black; text-decoration: none;}
+#SIDE-NAV A {display: block; border-bottom: 1PX solid black; text-decoration: none; margin: 0 5PX; padding: 0.07EM 3PX;}
 #SIDE-NAV A:HOVER {background-color: #4B86D3; color: white;}
 #SIDE-NAV A:ACTIVE {background-color: #3C6CAB;}
-#SIDE-NAV SUMMARY {display: block; width: 100%; position: relative;}
-#SIDE-NAV SUMMARY::AFTER {position: absolute; right: 0; display: inline-block; content: '\F0DA'; font-family: FontAwesome;}
-#SIDE-NAV SUMMARY:HOVER {background-color: #4B86D3;  color: white; cursor: pointer;}
+#SIDE-NAV DETAILS { margin: 0 5PX; padding: 0.07EM 3PX;}
+#SIDE-NAV DETAILS:HOVER {background-color: #4B86D3;  color: white; cursor: pointer;}
 #SIDE-NAV DETAILS[OPEN] > SUMMARY::AFTER {content: '\F0D7';}
+#SIDE-NAV SUMMARY {display: block; width: 100%; position: relative; color: blue;}
+#SIDE-NAV SUMMARY:HOVER {color: white;}
+#SIDE-NAV SUMMARY::AFTER {position: absolute; right: 0; display: inline-block; content: '\F0DA'; font-family: FontAwesome;}
 #SIDE-NAV DETAILS UL {list-style-type: none; padding-left: 0; margin-top: 0;}
 #POTD {background-color: #FFFF99;}
 #POTD IMG {display: block; text-align: center;}
@@ -58,7 +60,7 @@ HEADER A:HOVER {border: 1PX solid red;}
 #VLOG .vloglink A {color: white; display: inline-block;}
 #VLOG .vloglink A:HOVER {background-color: transparent; font-weight: bold; color: red;}
 #VLOG .vloglink A:ACTIVE {color: darkred;}
-#UPDATE {background-color: #DEDCFF; border: 1PX solid #B5AAFF; max-width: 650PX;}
+#UPDATE {background-color: #DEDCFF; border: 1PX solid #B5AAFF; max-width: 600PX;}
 #UPDATE H2 {background-color: #DDCEFF; border: 1PX solid #ABA3BF;}
 #UPDATE IMG {width: 200PX; max-width: 450PX; margin-right: 10PX;}
 #js-needed {border: 1PX solid black; background-color: #FFFFDD; padding: 8PX; font: normal 12PX serif;}
