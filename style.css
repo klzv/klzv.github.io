@@ -22,6 +22,9 @@ H1 A:HOVER, H2 A:HOVER, H3 A:HOVER, H4 A:HOVER, H5 A :HOVER, H6 A:HOVER {text-de
 .DM {background-color: black; color: white;} /* dark mode/theme */
 .LEFT {float: left;} .RIGHT {float: right;} .CLEAR {clear: both;} /* floats */
 .BOX {display: block; border: 1PX solid black;} .PD {padding: 0 10PX;} .NO-BD {border: 0;} /* 'modifier'/'add-on' classes */
+.TOC {margin: 10PX 0; padding: 10PX; border: 1PX solid black; width: fit-content;}
+.TOC LI {padding-left: 0; list-style-type: none;} .TOC H5 {margin: -10PX -10PX 0.2EM; padding: 5PX 10PX; background-color: skyblue; border-bottom: 1PX solid black;}
+HR.HALF {margin-left: 0; width: 50%;}
 .BOX-H {padding-left: 0.15EM;}
 .VLOGT TD, TH {padding: 0; border-spacing: 20PX;}
 .VLOGT TD A {display: block; padding: 10PX; text-decoration: none; border: 1PX solid transparent;}
