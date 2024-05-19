@@ -20,6 +20,7 @@ H1 A:VISITED:HOVER, H2 A:VISITED:HOVER, H3 A:VISITED:HOVER, H4 A:VISITED:HOVER, 
 H1 A:HOVER, H2 A:HOVER, H3 A:HOVER, H4 A:HOVER, H5 A :HOVER, H6 A:HOVER {text-decoration: underline; background-color: transparent; color: red;}
 .DM {background-color: black; color: white;} /* dark mode/theme */
 .LEFT {float: left;} .RIGHT {float: right;} .CLEAR {clear: both;} /* floats */
+.BOX {display: block; border: 1PX solid black;} .PD {padding: 0 10PX;} .NO-BD {border: 0;} /* 'modifier'/'add-on' classes */
 .BOX-H {padding-left: 0.15EM;}
 .VLOGT TD, TH {padding: 0; border-spacing: 20PX;}
 .VLOGT TD A {display: block; padding: 10PX; text-decoration: none; border: 1PX solid transparent;}
