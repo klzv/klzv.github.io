@@ -1,64 +1,50 @@
 @font-face {font-family: 'Not Verdana'; src: url('fonts/FranklinGothic.ttf'); font-style: normal; font-weight: normal;}
 @font-face {font-family: 'Not Verdana'; src: url('fonts/FranklinGothic\ Bold.ttf'); font-weight: bold;}
-@font-face {font-family: 'Segoe UI'; src: url(Segoe\ UI.ttf); font-style: normal; font-weight: normal;}
-html {background: #F8F8F8 center center/cover no-repeat;}
-body {width: 100%; margin: 0; font-family: 'Not Verdana'; font-size: 14PT;}
-header {height: 10%; max-height: 100PX; background-color: #F2F2F2;}
-header img {height: 80%; max-height: 80PX;}
-header table {margin: 0 20%;}
-header table td {width: 1%; white-space: no-wrap;}
-header .space {width: 40%; max-width: 400PX;}
-header a.image-anchor {margin: 0; padding: 0;}
-header a.image-anchor:hover {border-bottom: 0; }
-header a {color: black; font-size: 22PX; margin: 0 1EM; text-decoration: none;}
-header a:hover {color: #0076E3; padding-bottom: 0.15EM; border-bottom: 3PX solid #0076E3;}
-a {color: #2B6BB4;}
-a:visited {color: #1A53A2;}
+@font-face {font-family: 'Segoe UI'; src: url(fonts/Segoe\ UI.ttf); font-style: normal; font-weight: normal;}
+
+html {background: #F8F8F8;}
+body {background: #F8F8F8; margin: 0; font-family: 'Not Verdana', Tahoma;}
+a, a:visited {color: #2B6BB4;}
+a:active {color: #1A53A2;}
 a:hover {color: #0E2041;}
-p {line-height: 1.1; margin: 0.5EM 0;}
-h1.box-title {font: 800 2.3EM 'Not Verdana'; margin: 0.3EM 0 0.5EM;}
-footer {background-color: #333333 /* #54309B */; color: white; padding: 20PX 8.1%;}
-footer td {padding: 2PX 0.8EM;}
-footer a {color: white; text-decoration: none; margin: 20PX 0;}
-footer a:hover {color: white; text-decoration: underline; border-bottom: 0;}
-footer img.fb:hover {mask-image: url(fb-hover.svg);}
-.no-stretch {width: 1%; white-space: nowrap;}
 p.subheader {font: 600 1.1EM 'Not Verdana'; font-variant: small-caps; margin-bottom: 0.6EM;  color: #1A53A2;}
-.fa.faws-sizing {line-height: 0.8; margin-top: 1PX;}
-.left {float: left;} .right {float: right;} .clear {clear: both;}
-.intro-box {background: #000000 linear-gradient(90DEG, #3366CC 0%,  #0076E3  100%); height: 500PX; width: 100%;  display: table;}
-.intro-box .caption {display: table-cell; vertical-align: middle; padding-left: 8EM;}
-.intro-box h1 {color: white; font: 600 75PX 'Not Verdana'; margin: 0.1EM 0 0.35EM; line-height: 1.1;}
-.intro-box a {font: normal 24PX 'Not Verdana'; margin-top: -10PX; padding: 10PX 15PX; color: white; text-decoration: none; border: 2PX solid white; display: inline-block; border-radius: 8PX; transition: 0.3S ease-in-out;}
-/* background: linear-gradient(180deg, rgba(183, 52, 179, 0) 0%, rgba(164, 46, 156, 0) 100%),#6E40C9;  */
-.intro-box a:hover {background-color: white; color: black;}
-.intro-box a:hover i:before {content: '\f101'; color: black;}
-.intro-box .see-more {margin: -10PX 15PX 0 0; background-image: linear-gradient(45DEG, #0076E3, #FF1E54); color: #3366CC; color: white; border: 2PX solid linear-gradient(45DEG, #0076E3, #FF1E54);}
-.intro-box .see-more:hover {background-color: #E0E0E0; border: 2PX solid #E0E0E0; color: #E0E0E0;}
-.about {height: auto; text-align: center; padding: 2% 0;}
+h1.box-title {font: 800 2.3EM 'Not Verdana'; margin: 0.3EM 0 0.5EM;}
+header {display: flex; flex-wrap: wrap; box-sizing: border-box; justify-content: space-evenly; background-color: white;}
+header ul {list-style-type: none;padding-left: 0; margin: 0 auto;}
+header ul li {position: relative; margin: 0 25PX; display: inline-block; vertical-align: middle;}
+header li.img-anchor {margin-left: 0;}
+header li.menu {display: none;}
+header a {font: 400 22PX 'Not Verdana'; text-decoration: none; border-bottom: 0; color: #0E2041;}
+header a:hover {padding-bottom: 0.15EM; color: #2B6BB4;  border-bottom: 3PX solid #2B6BB4;}
+header img {height: 80PX; display: block; margin: 8PX 0;}
+.intro-box {background: #000000 linear-gradient(90DEG, #3366CC 0%,  #0076E3 100%); height: 450PX; display: flex; align-items: center;}
+.intro-box .caption {padding-left: 12%;}
+.intro-box .caption h1 {color: white; font: 600 75PX 'Not Verdana'; margin: 0.1EM 0 0.35EM; line-height: 1.1;}
+.intro-box a {font: normal 24PX 'Not Verdana'; margin-top: -10PX; padding: 10PX 15PX; color: #E0E0E0; text-decoration: none; border: 2PX solid #E0E0E0; display: inline-block; border-radius: 8PX; transition: 0.3S ease-in-out;}
+.intro-box a:hover {color: white; border: 2PX solid white; box-shadow: 0 0 5PX silver;}
+.intro-box .see-more {margin: -10PX 15PX 0 0; background-image: linear-gradient(45DEG, #0076E3, #FF1E54); color: #E0E0E0; border: 2PX solid linear-gradient(45DEG, #0076E3, #FF1E54);}
+.intro-box .see-more:hover {background-image: linear-gradient(45DEG, #1A53A2, #BF163D); color: white;}
+.about {text-align: center;}
 .about p {width: 50%; margin: 0.3EM auto; font-size: 1.3EM;}
-.about a {font: normal 20PX 'Not Verdana'; margin-top: 0.5EM; padding: 10PX 15PX; color: white; text-decoration: none; background-color: #3366CC;  display: inline-block; border-radius: 8PX; transition: 0.3S ease-in-out; border: 2PX  solid transparent;}
+.about p.boast {font-size: 21PX; line-height: 1.15EM;}
+.about a {font: normal 21PX 'Not Verdana'; margin-top: 0.5EM; padding: 10PX 15PX; color: white; text-decoration: none; background-color: #3366CC;  display: inline-block; border-radius: 8PX; transition: 0.3S ease-in-out; border: 2PX  solid transparent;}
 .about a:hover {background-color: transparent; border: 2PX solid #3366CC; color: #3366CC;}
-/* .intro-box .caption-image {height: 600PX; position: absolute; right: 0;} */
-.services {text-align: center; background-color: #ECF2F6; color: #1D1D1D; padding-top: 1.2EM;}
-.services table {width: fit-content; margin: 15PX auto 0;}
-.services table td {background-color: #F2F2F2; }
-.services table img {width: 75PX; height: 75PX;}
-.services-wrapper {width: 75%; margin: 0 auto; display: flex;}
-.service {background-color: #F2F2F2; border-radius: 8PX;  box-shadow: 0 0 5PX grey; width: 33%; margin: 20PX 2%; height: auto; transition: all 0.3s ease-in-out; overflow: auto;}
-.service:hover {opacity: 1;}
-.service:hover {transform: scale(1.15, 1.15);}
-.service img {height: 75PX; margin: 15PX;}
-.service .descr {display: table; vertical-align: middle; height: 100%;}
-.service h1 {display: table-cell;vertical-align: middle;  font: 600 1.5EM 'Not Verdana'; margin: 0;}
-.resources {background: #000000 linear-gradient(90DEG, #FAFAFA 0%, #E0E0E0 100%); height: 600PX; width: 100%;  display: table;}
-.resources .caption {display: table-cell; vertical-align: middle; padding-left: 8EM;}
-.resources .caption p {font-size: 1.2EM;}
-.resources h1 {color: black; font: 600 75PX 'Not Verdana'; margin: 0.1EM 0 0.35EM; line-height: 1.1;}
-.resources a {font: normal 24PX 'Not Verdana'; padding: 11PX 15PX 10PX; background: transparent; color: black; text-decoration: none; display: inline-block; border-radius: 8PX; transition: 0.3S ease-in-out; border: 2PX solid #000;}
-.resources a:hover {background-color: black; color: white;}
-@media screen and (max-width: 1620PX) {
-    .service {height: 50%; margin-bottom: 20PX;}
-    .service .descr {padding-bottom: 20PX; padding: 10PX;}
-    .service img {width: 50PX; height: 50PX; padding: 5PX;}
+/* background: linear-gradient(180deg, rgba(183, 52, 179, 0) 0%, rgba(164, 46, 156, 0) 100%),#6E40C9;  */
+
+@media screen and (max-width: 775PX) {
+    .top-nav ul {width: 100%; padding-left: 20PX;}
+    .top-nav li:not(:first-child) {display: none;}
+    .top-nav li.menu {float: right; display: block; line-height: 100PX;}
+    .top-nav li.menu a {display: inline;}
+    .top-nav.responsive ul {padding-left: 40PX;}
+    .top-nav.responsive li.menu {position: absolute; top: 0; right: 0;}
+    .top-nav.responsive {position: relative;}
+    .top-nav.responsive li {float: none; display: block; padding: 0.3EM 0;}
+    .top-nav.responsive li.img-anchor {display: inline-block; width: 40%;}
+    .top-nav.responsive li.img-anchor a {display: inline-block; width: 100%;}
+    .top-nav.responsive a {width: 100VW; display: block;}
+    .intro-box {margin: 10PX 0; padding: 1EM 0;}
+    .intro-box .caption {margin-left: -7%;}
+    .intro-box .caption h1 {font-size: 60PX; margin-bottom: 0.15EM;}
+    .intro-box .caption a {margin: 10PX; margin-left: 0;}
 }
