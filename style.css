@@ -19,9 +19,14 @@ H1 A, H2 A, H3 A, H4 A, H5 A, H6 A {text-decoration: dotted; color: inherit;}
 H1 A:VISITED, H2 A:VISITED, H3 A:VISITED, H4 A:VISITED, H5 A:VISITED, H6 A:VISITED {color: inherit;} 
 H1 A:VISITED:HOVER, H2 A:VISITED:HOVER, H3 A:VISITED:HOVER, H4 A:VISITED:HOVER, H5 A:VISITED:HOVER, H6 A:VISITED:HOVER {background-color: transparent; } 
 H1 A:HOVER, H2 A:HOVER, H3 A:HOVER, H4 A:HOVER, H5 A :HOVER, H6 A:HOVER {text-decoration: underline; background-color: transparent; color: red;}
+BLOCKQUOTE {margin-left: 25PX; padding-left: 10PX;  border-left: 3PX solid RGBA(193, 84, 193, 0.5);}
+DETAILS {margin-bottom: 10PX;}
+SUMMARY:HOVER {cursor: pointer;} SUMMARY:HOVER > * {text-decoration: underline;}
 .DM {background-color: black; color: white;} /* dark mode/theme */
 .LEFT {float: left;} .RIGHT {float: right;} .CLEAR {clear: both;} /* floats */
-.BOX {display: block; border: 1PX solid black;} .PD {padding: 0 10PX;} .NO-BD {border: 0;} /* 'modifier'/'add-on' classes */
+/* 'modifier'/'add-on' classes: */
+.BOX {display: block; border: 1PX solid black;} .PD {padding: 0 10PX;} .NO-BD {border: 0;}
+.B {display: block;} .IB {display: inline-block;}
 .TOC {margin: 10PX 0; padding: 10PX; border: 1PX solid black; width: fit-content;}
 .TOC LI {padding-left: 0; list-style-type: none;} .TOC H5 {margin: -10PX -10PX 0.2EM; padding: 5PX 10PX; background-color: skyblue; border-bottom: 1PX solid black;}
 HR.HALF {margin-left: 0; width: 50%;}
