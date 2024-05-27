@@ -49,7 +49,7 @@ HEADER A {display: block; padding: 6PX 10PX; border: 1PX solid transparent; colo
 HEADER A:HOVER {color: lime; background-color: transparent;}
 HEADER A:ACTIVE {color: #7ACB17;}
 #MAINPAGE {border-spacing: 10PX; border: 1PX solid black; border-top: 0;}
-#SIDE-NAV {background-color: #E8F2F2; max-width: 300PX;}
+#SIDE-NAV {background-color: #E8F2F2; max-width: 300PX; border: 1PX solid #B7DDDD;}
 #SIDE-NAV H2 {background-color: #9BC6FF;  border: 1PX solid #AAAAAA;}
 #SIDE-NAV A {display: block; border-bottom: 1PX solid black; text-decoration: none; margin: 0 5PX; padding: 0.07EM 3PX;}
 #SIDE-NAV A:HOVER {background-color: #4B86D3; color: white;}
@@ -61,7 +61,7 @@ HEADER A:ACTIVE {color: #7ACB17;}
 #SIDE-NAV SUMMARY:HOVER {color: white;}
 #SIDE-NAV SUMMARY::AFTER {position: absolute; right: 0; display: inline-block; content: '\F0DA'; font-family: FontAwesome;}
 #SIDE-NAV DETAILS UL {list-style-type: none; padding-left: 0; margin-top: 0;}
-#POTD {background-color: #FFFF99;}
+#POTD {background-color: #FFFF99; border: 1PX solid #AAAAAA;}
 #POTD IMG {display: block; text-align: center;}
 #POTD H2 {background-color: #EEEE99;  border: 1PX solid #AAAAAA;}
 #VLOG {background-color: #DDFFEA; max-width: 400PX; padding-bottom: 10PX;}
@@ -74,6 +74,8 @@ HEADER A:ACTIVE {color: #7ACB17;}
 #UPDATE {background-color: #DEDCFF; border: 1PX solid #B5AAFF; max-width: 600PX;}
 #UPDATE H2 {background-color: #DDCEFF; border: 1PX solid #ABA3BF;}
 #UPDATE IMG {width: 200PX; max-width: 450PX; margin-right: 10PX;}
+#BIOG {background-color: #EEEEEE; border: 1PX solid #AAAAAA;}
+#BIOG H2 {background-color: #E2E2E2; border: 1PX solid #AAAAAA;}
 #js-needed {border: 1PX solid black; background-color: #FFFFDD; padding: 8PX; font: normal 12PX serif;}
 #js-needed H3 {font-size: 1.2EM; margin: 0; margin-bottom: 0.2EM; text-decoration: underline;}
 #js-needed BR {display: block; margin: 1EM; line-height: 1.5EM;}

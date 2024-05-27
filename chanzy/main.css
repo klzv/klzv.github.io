@@ -7,9 +7,9 @@ body {background: #F8F8F8; margin: 0; font-family: 'Not Verdana', Tahoma;}
 a, a:visited {color: #2B6BB4;}
 a:active {color: #1A53A2;}
 a:hover {color: #0E2041;}
-p.subheader {font: 600 1.1EM 'Not Verdana'; font-variant: small-caps; margin-bottom: 0.6EM;  color: #1A53A2;}
+p.subheader {font: 600 1.3EM 'Not Verdana'; font-variant: small-caps; margin-bottom: 0.8EM;  color: #1A53A2;}
 h1.box-title {font: 800 2.3EM 'Not Verdana'; margin: 0.3EM 0 0.5EM;}
-header {display: flex; flex-wrap: wrap; box-sizing: border-box; justify-content: space-evenly; background-color: white;}
+header {display: flex; flex-wrap: wrap; box-sizing: border-box; justify-content: space-evenly;}
 header ul {list-style-type: none;padding-left: 0; margin: 0 auto;}
 header ul li {position: relative; margin: 0 25PX; display: inline-block; vertical-align: middle;}
 header li.img-anchor {margin-left: 0;}
@@ -17,20 +17,40 @@ header li.menu {display: none;}
 header a {font: 400 22PX 'Not Verdana'; text-decoration: none; border-bottom: 0; color: #0E2041;}
 header a:hover {padding-bottom: 0.15EM; color: #2B6BB4;  border-bottom: 3PX solid #2B6BB4;}
 header img {height: 80PX; display: block; margin: 8PX 0;}
+footer {background-color: #333333 /* #54309B */; color: white; padding: 20PX 8.1%; display: flex;}
+footer a {color: white; text-decoration: none; margin: 20PX 0; padding: 2PX 0.8EM; font-size: 14PT;}
+footer a:hover {color: white; text-decoration: underline; border-bottom: 0;}
+footer a:visited {color: white;}
+footer i.fb {color: white;} footer i.fb:hover {color: #0076E3;}
+footer .© {margin-left: auto; padding: 20PX 8.1%; font-size: 14PT; display: inline-block;}
 .intro-box {background: #000000 linear-gradient(90DEG, #3366CC 0%,  #0076E3 100%); height: 450PX; display: flex; align-items: center;}
 .intro-box .caption {padding-left: 12%;}
 .intro-box .caption h1 {color: white; font: 600 75PX 'Not Verdana'; margin: 0.1EM 0 0.35EM; line-height: 1.1;}
-.intro-box a {font: normal 24PX 'Not Verdana'; margin-top: -10PX; padding: 10PX 15PX; color: #E0E0E0; text-decoration: none; border: 2PX solid #E0E0E0; display: inline-block; border-radius: 8PX; transition: 0.3S ease-in-out;}
+.intro-box a {font: normal 24PX 'Not Verdana'; margin-top: -10PX; padding: 10PX 15PX 8PX; color: white; text-decoration: none; border: 2PX solid white; display: inline-block; border-radius: 8PX; transition: 0.3S ease-in-out;}
 .intro-box a:hover {color: white; border: 2PX solid white; box-shadow: 0 0 5PX silver;}
-.intro-box .see-more {margin: -10PX 15PX 0 0; background-image: linear-gradient(45DEG, #0076E3, #FF1E54); color: #E0E0E0; border: 2PX solid linear-gradient(45DEG, #0076E3, #FF1E54);}
-.intro-box .see-more:hover {background-image: linear-gradient(45DEG, #1A53A2, #BF163D); color: white;}
-.about {text-align: center;}
+.intro-box .see-more {margin: -10PX 15PX 0 0; background-image: linear-gradient(45DEG, #0076E3, #FF1E54); border: 2PX solid linear-gradient(45DEG, #0076E3, #FF1E54);}
+.intro-box .see-more:hover {background-image: linear-gradient(45DEG, #0084FF, #FF4671 /* #BF163D */); color: white;}
+.intro-box .contact:hover {color: black; background-color: white;}
+.about {text-align: center; margin: 10PX 0;}
 .about p {width: 50%; margin: 0.3EM auto; font-size: 1.3EM;}
 .about p.boast {font-size: 21PX; line-height: 1.15EM;}
-.about a {font: normal 21PX 'Not Verdana'; margin-top: 0.5EM; padding: 10PX 15PX; color: white; text-decoration: none; background-color: #3366CC;  display: inline-block; border-radius: 8PX; transition: 0.3S ease-in-out; border: 2PX  solid transparent;}
+.about a {font: normal 20PX 'Not Verdana'; margin-top: 0.5EM; padding: 10PX 15PX 8PX; color: white; text-decoration: none; background-color: #3366CC;  display: inline-block; border-radius: 8PX; transition: 0.3S ease-in-out; border: 2PX  solid transparent;}
 .about a:hover {background-color: transparent; border: 2PX solid #3366CC; color: #3366CC;}
 /* background: linear-gradient(180deg, rgba(183, 52, 179, 0) 0%, rgba(164, 46, 156, 0) 100%),#6E40C9;  */
-
+.services {text-align: center; background-color: #ECF2F6; color: #1D1D1D; padding: 10PX 0;}
+.services .s-container {display: flex; width: 75%; margin: 0 auto;}
+.service {text-align: left; background-color: #ECF2F6; color: #1D1D1D; border-radius: 8PX; box-shadow: 0 0 5PX grey; width: 30%; margin: 20PX 2%; height: auto; transition: all 0.3s ease-in-out; overflow: auto;}
+.service:hover {opacity: 1;}
+.service:hover {transform: scale(1.15, 1.15);}
+.service img {height: 75PX; margin: 15PX;}
+.service .left {display: table-cell; vertical-align: middle;}
+.service h2 {vertical-align: middle; font: 500 1.7EM 'Not Verdana'; line-height: 1.1EM;  margin: 0 10PX;}
+.resources {background: #000000 linear-gradient(90DEG, #FAFAFA 0%, #E0E0E0 100%); height: 450PX; width: 100%;  display: table;}
+.resources .caption {display: table-cell; vertical-align: middle; padding-left: 12%;}
+.resources .caption p {font-size: 1.3EM;}
+.resources h1 {color: black; font: 600 75PX 'Not Verdana'; margin: 0.1EM 0 0.35EM; line-height: 1.1;}
+.resources a {font: normal 22PX 'Not Verdana'; padding: 11PX 15PX 10PX; background: transparent; color: black; text-decoration: none; display: inline-block; border-radius: 8PX; transition: 0.3S ease-in-out; border: 2PX solid #000;}
+.resources a:hover {background-color: black; color: white;}
 @media screen and (max-width: 775PX) {
     .top-nav ul {width: 100%; padding-left: 20PX;}
     .top-nav li:not(:first-child) {display: none;}
