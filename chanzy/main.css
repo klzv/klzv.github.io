@@ -7,6 +7,7 @@ body {background: #F8F8F8; margin: 0; font-family: 'Not Verdana', Tahoma;}
 a, a:visited {color: #2B6BB4;}
 a:active {color: #1A53A2;}
 a:hover {color: #0E2041;}
+p {line-height: 1.15EM;}
 p.subheader {font: 600 1.3EM 'Not Verdana'; font-variant: small-caps; margin-bottom: 0.8EM;  color: #1A53A2;}
 h1.box-title {font: 800 2.3EM 'Not Verdana'; margin: 0.3EM 0 0.5EM;}
 header {display: flex; flex-wrap: wrap; box-sizing: border-box; justify-content: space-evenly;}
@@ -66,5 +67,15 @@ footer .© {margin-left: auto; padding: 20PX 8.1%; font-size: 14PT; display: inl
     .intro-box {margin: 10PX 0; padding: 1EM 0;}
     .intro-box .caption {margin-left: -7%;}
     .intro-box .caption h1 {font-size: 60PX; margin-bottom: 0.15EM;}
-    .intro-box .caption a {margin: 10PX; margin-left: 0;}
+    .intro-box .caption a, .resources .caption a {margin: 0 15PX 10PX; margin-left: 0;}
+}
+
+@media screen and (max-width: 700PX) {
+    footer {flex-wrap: wrap; flex-grow: 1;}
+    footer a {margin: 15PX 0; padding: 2PX 0.4EM; font-size: 1.4EM; width: 100%;}
+    footer .© {margin-left: -15PX;}
+    .intro-box .caption a .resources .caption a {display: block; width: fit-content;}
+    .s-container {flex-wrap: wrap; flex-grow: 1;}
+    .service {width: 100%;}
+    .resources {padding-bottom: 15PX;}
 }
