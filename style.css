@@ -3,9 +3,9 @@ HTML {background:  #E0E0E0 url(bg.jpg) no-repeat fixed center; background-size: 
 BODY {background-color: #E0E0E0; box-shadow: 0px 0px 20px 0px lightgrey; width: fit-content;  max-width: 1280PX; margin: 0 auto}
 MAIN {padding: 10PX; border: 1PX solid black; border-top: 0;}
 TD, TH {padding: 2PX 5PX;}
-A:HOVER {background-color: #FFFF99;}
+A:HOVER, A:VISITED:HOVER {color: rgb(0, 92, 229);}
+A:ACTIVE, A:VISITED:ACTIVE {color: red;}
 A:VISITED {color: blue;}
-A:VISITED:HOVER {background-color: #FFFF99;}
 ABBR:HOVER:BEFORE {content: attr(title); position: absolute; background-color: black; color: white; padding: 3PX 8PX; margin: -25PX 0 0 0;}
 P {margin: 0.7EM 0;}
 H1, H2, H3 {margin: 0.4EM 0;}
@@ -17,7 +17,7 @@ H5 {font-size: 1.2EM;}
 H6 {font-size: 1.15EM; text-decoration: underline;}
 H1 A, H2 A, H3 A, H4 A, H5 A, H6 A {text-decoration: dotted; color: inherit;}
 H1 A:VISITED, H2 A:VISITED, H3 A:VISITED, H4 A:VISITED, H5 A:VISITED, H6 A:VISITED {color: inherit;} 
-H1 A:VISITED:HOVER, H2 A:VISITED:HOVER, H3 A:VISITED:HOVER, H4 A:VISITED:HOVER, H5 A:VISITED:HOVER, H6 A:VISITED:HOVER {background-color: transparent; } 
+H1 A:VISITED:HOVER, H2 A:VISITED:HOVER, H3 A:VISITED:HOVER, H4 A:VISITED:HOVER, H5 A:VISITED:HOVER, H6 A:VISITED:HOVER {background-color: transparent;} 
 H1 A:HOVER, H2 A:HOVER, H3 A:HOVER, H4 A:HOVER, H5 A :HOVER, H6 A:HOVER {text-decoration: underline; background-color: transparent; color: red;}
 BLOCKQUOTE {margin-left: 25PX; padding-left: 10PX;  border-left: 3PX solid RGBA(193, 84, 193, 0.5);}
 DETAILS {margin-bottom: 10PX;}
@@ -46,10 +46,10 @@ HEADER H1 {margin: 0.2EM 0; font-size: 2.5EM;}
 HEADER .tagline {font: 500 1.35EM "Times New Roman"; margin: 0;}
 HEADER TD.TOP-NAV {padding: 0;}
 HEADER A {display: block; padding: 6PX 10PX; border: 1PX solid transparent; color: white;}
-HEADER A:HOVER {color: lime; background-color: transparent;}
+HEADER A:HOVER, HEADER A:VISITED:HOVER {color: lime; background-color: transparent;}
 HEADER A:ACTIVE {color: #7ACB17;}
 #MAINPAGE {border-spacing: 10PX; border: 1PX solid black; border-top: 0;}
-#SIDE-NAV {background-color: #E8F2F2; max-width: 300PX; border: 1PX solid #B7DDDD;}
+#SIDE-NAV {background-color: #E8F2F2; max-width: 350PX; border: 1PX solid #B7DDDD;}
 #SIDE-NAV H2 {background-color: #9BC6FF;  border: 1PX solid #AAAAAA;}
 #SIDE-NAV A {display: block; border-bottom: 1PX solid black; text-decoration: none; margin: 0 5PX; padding: 0.07EM 3PX;}
 #SIDE-NAV A:HOVER {background-color: #4B86D3; color: white;}
@@ -66,20 +66,23 @@ HEADER A:ACTIVE {color: #7ACB17;}
 #POTD H2 {background-color: #EEEE99;  border: 1PX solid #AAAAAA;}
 #VLOG {background-color: #DDFFEA; max-width: 400PX; padding-bottom: 10PX;}
 #VLOG H2 {background-color: #CEF250; border: 1PX solid #AABBDD;}
-#VLOG .biography {background-color: #FFFFDD; padding: 10PX; border: 1PX solid black;}
-#VLOG .vloglink {background-color: black; text-align: center;  height: 80PX; font-size: 1.15EM; margin-bottom: 10PX; width: 100%;}
+#VLOG .vloglink {background-color: black; text-align: center; height: 80PX; font-size: 1.15EM; margin-bottom: 10PX; width: 100%;}
 #VLOG .vloglink A {color: white; display: inline-block;}
 #VLOG .vloglink A:HOVER {background-color: transparent; font-weight: bold; color: red;}
 #VLOG .vloglink A:ACTIVE {color: darkred;}
-#UPDATE {background-color: #DEDCFF; border: 1PX solid #B5AAFF; max-width: 600PX;}
+#VLOG .biography {background-color: #FFFFDD; padding: 10PX; border: 1PX solid black;}
+#VLOG .biography H3 {display: inline-block; margin: 0.2EM 0; margin-bottom: 0;}
+#VLOG .biography IMG {margin: 5PX 10PX 0 0;}
+#VLOG .biography P {word-wrap: break-word;}
+#UPDATE {background-color: #DEDCFF; border: 1PX solid #B5AAFF; max-width: 650PX;}
 #UPDATE H2 {background-color: #DDCEFF; border: 1PX solid #ABA3BF;}
 #UPDATE IMG {width: 200PX; max-width: 450PX; margin-right: 10PX;}
 #BIOG {background-color: #EEEEEE; border: 1PX solid #AAAAAA;}
 #BIOG H2 {background-color: #E2E2E2; border: 1PX solid #AAAAAA;}
+#BIOG IMG {height: 125PX;}
+#BIOG .name {text-align: center; font-weight: 600; font-size: 22PX;}
 #js-needed {border: 1PX solid black; background-color: #FFFFDD; padding: 8PX; font: normal 12PX serif;}
 #js-needed H3 {font-size: 1.2EM; margin: 0; margin-bottom: 0.2EM; text-decoration: underline;}
 #js-needed BR {display: block; margin: 1EM; line-height: 1.5EM;}
 #js-needed IMG {height: 50PX; width: 50PX; margin-right: 10PX;}
 #flag-counter A {color: black;}
-.biography H3 {display: inline-block; margin: 0.2EM 0; margin-bottom: 0;}
-.biography IMG {margin: 5PX 10PX 0 0;}
