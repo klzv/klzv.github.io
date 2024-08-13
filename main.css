@@ -6,3 +6,6 @@ A:HOVER, A:VISITED:HOVER {color: darkblue  /* #005CE5 */;}
 A:ACTIVE, A:VISITED:ACTIVE {color: red;}
 HEADER {background-color: black; color: white; padding: 5PX 10PX;}
 HEADER H1 {margin: 0.25EM 0 0 0;}
+HEADER A, HEADER A:VISITED {color: white; text-decoration: none;}
+HEADER A:HOVER, HEADER A:VISITED:HOVER {text-shadow: 5PX 5PX 10PX palegoldenrod; color: white;}
+HEADER A:ACTIVE, HEADER A:VISITED:ACTIVE {color: grey;}
