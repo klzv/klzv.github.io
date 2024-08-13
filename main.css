@@ -1,0 +1,8 @@
+HTML {background: url('bg.jpg') no-repeat top; background-color: #E0E0E0; background-size: cover; margin: 0;}
+BODY {background-color: #E0E0E0; width: 50%; margin: 10PX auto 0;}
+MAIN {padding: 10PX; }
+A {color: blue;} A:VISITED {color: blue;}
+A:HOVER, A:VISITED:HOVER {color: darkblue  /* #005CE5 */;}
+A:ACTIVE, A:VISITED:ACTIVE {color: red;}
+HEADER {background-color: black; color: white; padding: 5PX 10PX;}
+HEADER H1 {margin: 0.25EM 0 0 0;}
