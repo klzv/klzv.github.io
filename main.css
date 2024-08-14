@@ -1,11 +1,36 @@
 HTML {background: url('bg.jpg') no-repeat top; background-color: #E0E0E0; background-size: cover; margin: 0;}
 BODY {background-color: #E0E0E0; width: 50%; margin: 10PX auto 0;}
-MAIN {padding: 10PX; }
+MAIN {padding: 0 10PX; margin-left: 185PX; background-color: #E0E0E0; width: 100%;}
+.CONTENT {display: flex; align-self: stretch; background-color: #94B5CC;}
+
 A {color: blue;} A:VISITED {color: blue;}
 A:HOVER, A:VISITED:HOVER {color: darkblue  /* #005CE5 */;}
 A:ACTIVE, A:VISITED:ACTIVE {color: red;}
+
 HEADER {background-color: black; color: white; padding: 5PX 10PX;}
-HEADER H1 {margin: 0.25EM 0 0 0;}
+HEADER H1 {margin: 0.25EM 0 0 0; font-size: 2.1EM;}
+HEADER IMG {float: left; margin: 9PX 0.6rEM 0 0; height: 80PX; image-rendering: pixelated;}
 HEADER A, HEADER A:VISITED {color: white; text-decoration: none;}
-HEADER A:HOVER, HEADER A:VISITED:HOVER {text-shadow: 5PX 5PX 10PX palegoldenrod; color: white;}
+HEADER A:HOVER, HEADER A:VISITED:HOVER {text-shadow: 0 0 10PX palegoldenrod; color: white;}
 HEADER A:ACTIVE, HEADER A:VISITED:ACTIVE {color: grey;}
+
+FOOTER {background-color: #005C35; color: white; text-align: center; color: #F0F0F0; }
+FOOTER A, FOOTER A:VISITED {display: block; color: lightgrey; padding: 10PX 0; }
+FOOTER A:HOVER, FOOTER A:VISITED:HOVER {background-color: #006E40; color: yellow;}
+FOOTER A:ACTIVE, FOOTER A:VISITED:ACTIVE {background-color: darkgreen;}
+
+/* SIDE NAVIGATION BAR ('SIDE-NAV') */
+NAV {width: 185PX; background-color: #94B5CC; position: fixed; overflow: auto;}
+NAV A, NAV A:VISITED {display: block; color: white; padding: 8PX 5PX; text-decoration: none; background-color: #94B5CC;}
+NAV A:HOVER, NAV A:VISITED:HOVER {background-color: #6098C0; color: white; text-shadow: 0 1PX 0 RGBA(255,255,255, 0.3), 0 -1PX 0 RGBA(0,0,0, 0.7);}
+NAV A.ACTIVE {background-color: #005CE5; color: white;} NAV A.ACTIVE:HOVER {text-shadow: none;}
+NAV H1 {text-align: center; background-color: lightslategrey; margin: 0; padding: 5PX;}
+
+H1, H2, H3 {margin: 0.4EM 0;}
+H4, H5, H6 {margin: 0.5EM 0;}
+H0 {font-size: 2.3EM; margin: 0.3EM 0 0.6EM; display: block; color: #005A6A; border-bottom: 3PX solid #005A6A;}
+H2 {font-size: 1.7EM;}
+H3 {font-size: 1.5EM;}
+H4 {font-size: 1.3EM;}
+H5 {font-size: 1.2EM;}
+H6 {font-size: 1.15EM; text-decoration: underline;}
